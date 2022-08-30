@@ -1,0 +1,112 @@
+/* Navigation bar */
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+
+main {
+    color: black;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero Image */
+
+body {
+    height: 125vh;
+    background-image: url('https://i1.wp.com/seonkyounglongest.com/wp-content/uploads/2020/09/Easy-Tonkotsu-26-mini.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.hero-button {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ffffff;
+    margin-top: 5rem;
+    padding: 0.9375rem1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.item {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}

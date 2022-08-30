@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-image: url('https://img.freepik.com/premium-vector/ramen-noodles-japanese-icon-logo-vector-symbol-illustration-design_629573-52.jpg');
+    "
+  >
+    <!--Navbar-->
+    <header>
+      <img
+        src="https://img.freepik.com/premium-vector/ramen-is-typical-food-from-japan_269774-23.jpg"
+        alt="ramen-is-typical-food-from-japan_269774-23"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." />
+        <label for="phonenumber">Phone Number</label>
+        <input
+          type="text"
+          id="phonenumber"
+          name="phonenumber"
+          placeholder="(xxx)xxx-xxxx"
+        />
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter Email Here.."
+        />
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div id="page-container">
+      <div id="content-wrap"></div>
+      <footer style="text-align: center" id="footer">
+        <!--Yelp icon-->
+        <a href="http://yelp.com/" target="yelp"
+          ><img
+            alt="yelp logo"
+            src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/yelp-512.png"
+          /> </a
+        >&nbsp; &nbsp; &nbsp;
+        <!--Google+ icon-->
+        <a href="http://google.com" target="google"
+          ><img
+            alt="google logo"
+            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-round-icon.png"
+          /> </a
+        >&nbsp; &nbsp;&nbsp;
+        <!--Facebook icon-->
+        <a href="http://facebook.com/" target="facebook"
+          ><img
+            alt="facebook logo"
+            src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-white-f.png"
+          /> </a
+        >&nbsp; &nbsp;&nbsp;
+        <!--TikTok icon-->
+        <a href="http://tiktok.com" target="tiktok">
+          <img
+            alt="tiktok logo"
+            src="https://seeklogo.com/images/T/tiktok-logo-1F4A5DCD45-seeklogo.com.png"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
